@@ -4,9 +4,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=noveo-test',
-            'username' => 'root',
-            'password' => '',
+            'dsn' => 'mysql:host=***HOST***;dbname=***DB NAME***',
+            'username' => '***USER NAME***',
+            'password' => '***PASSWORD***',
             'charset' => 'utf8',
         ],
         'mailer' => [
