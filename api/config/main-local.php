@@ -3,11 +3,11 @@
 $config = [
     'components' => [
         'db' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=noveo',
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8',
+          'class' => 'yii\db\Connection',
+          'dsn' => 'mysql:host=***HOST***;dbname=***DB NAME***',
+          'username' => '***USER NAME***',
+          'password' => '***PASSWORD***',
+          'charset' => 'utf8',
         ],
     ],
 ];
